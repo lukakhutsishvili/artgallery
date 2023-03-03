@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+html,body{
+    height:100%;
+}
+.img{
+    width:100%;
+}
+.maintxtcontainer{
+    padding: 48px 16px 56px 16px;
+    background-color: #151515;
+}
+.ourlocationtxt{
+    font-family: 'Big Shoulders Display', cursive;
+    color:white;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.kingstreet{
+    margin-top: 48px;
+}
+.street99{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 32px;
+    color:#D5966C;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.maincontainertxt{
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color:white;
+}
+.txt{
+    margin-top: 20px;
+}
+.newport{
+    text-align: left;
+}
+.newporttxt{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+}
+.ournewrlytxt{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color:white;
+    font-family: 'Outfit', sans-serif;
+}
+.footer{
+    background-color:#D5966C;
+    padding:48px 32px 48px 32px;
+}
+.footertxt{
+    margin-top: 38px;
+}
+span{
+    display: block;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color:#151515;
+    font-family: 'Outfit', sans-serif;
+}
+.icon{
+    margin-top: 40.25px;
+}
+
+.inst{
+    margin-left: 20px;
+}
+.tw{
+    margin-left: 20px;
+}
+a{
+    position: absolute;
+    top:0px;
+    text-decoration: none;
+}
+.backhome{
+    display:flex;
+}
+.leftbackhome{
+    padding:24px;
+    background-color: #D5966C;
+}
+.rightbackhome{
+    padding:24px 35px 24px 32px;
+    background-color: #151515;
+}
+.rightbackhometxt{
+    font-family: 'Big Shoulders Display';
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+color:white;
+letter-spacing: 3.63636px;
+}
+.backhome:hover .leftbackhome{
+    background-color:#151515
+}
+.backhome:hover .rightbackhome{
+    background-color: #D5966C;
+}
+
+path:hover{
+    cursor:pointer;
+    fill:white;
+}
+.imgtablet,.imgdesktop{
+    display: none;
+}
+
+
+
+@media(min-width:768px){
+a{
+    left:39px;
+}
+.imgtablet{
+    display: block;
+    width:100%;
+}
+.img,.imgdesktop{
+    display: none;
+}
+.maintxtcontainer{
+    display: flex;
+    padding: 88px 40px 80px 39px;
+}
+.kingstreet {
+    margin-top: 0px;
+    margin-left: 68px; 
+}
+.txt{
+    margin-top:0px;
+}
+.footer{
+    display: flex;
+}
+.footertxt {
+    margin-top: 0px;
+    margin-left: 64.95px;
+}
+.icon {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 133px;
+}
+}    
+
+
+
+
+@media(min-width:1440px){
+.imgtablet,.img{
+    display: none;
+}   
+.imgdesktop{
+    display: block;
+    width:100%;
+}
+a {
+    left: 156px;
+}
+.maintxtcontainer {
+    padding: 104px 165px 128px 165px;
+}
+.ourlocationtxt{
+    font-size: 70px;
+    line-height: 70px;
+}
+.kingstreet {
+    margin-top: 0px;
+    margin-left: 220px;
+}
+.street99 {
+    font-size: 36px;
+    line-height: 36px;
+}
+.newporttxt {
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.ournewrlytxt {
+    margin-top: 32px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.footer {
+    padding: 80px 165px 80px 165px;
+}   
+.footer{
+    padding:80px 165px 80px 165px;
+}
+.footerlogo {
+    max-width: 160px;
+    height:58px;
+} 
+span {
+    margin-left: 140.43px;
+    margin-top: 0px;
+    font-size: 18px;
+    line-height: 28px;
+} 
+.icon {
+    margin-left: 280px;
+    margin-top: 0px; 
+} 
+}

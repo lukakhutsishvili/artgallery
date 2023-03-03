@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+html,body{
+    height:100%;
+    font-family: 'Outfit', sans-serif;
+}
+.tabletgrid1,.tabletgrid2,.tabletgrid3,.desktopgrid1,.desktopgrid2,.desktopgrid3{
+display: none;
+}
+.headerdivs{
+    display: none;
+}
+.imghero{
+    width:100%;
+}
+.header{
+    margin-top:32px;
+    padding-left: 16px;
+    padding-right:16px;
+}
+.logodark{
+    width:100%;
+}
+.headertxt{
+    margin-top: 32px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.location{
+    margin-top: 32px; 
+    display:flex;  
+}
+.leftloc{
+    background-color:#151515;
+    padding: 24px 35px 24px 32px;
+}
+.rightloc{
+    padding: 24px;
+    background-color: #D5966C;
+}
+.loctxt{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.63636px;
+    color: white;
+}
+.location:hover .leftloc{
+    background-color: #D5966C;
+}
+.location:hover .rightloc{
+    background-color: #151515;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding: 0px 16px 0px 16px;
+    margin-top: 120px;
+}
+.section img{
+    width:100%;
+}
+
+.hdrtxt{
+    margin-top:25px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px; 
+    text-transform: uppercase;
+}
+.undertxt{
+    margin-top:21px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.div{
+    background-color: #151515;
+    padding: 48px 24px 47px 24px;
+}
+.come{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    color:white;
+}
+.comeundertxt{
+    margin-top:24px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color:white;
+}
+.grid1{
+    margin-top: 32px;
+}
+.grid2,.grid3,.div{
+    margin-top: 16px;
+}
+.footer{
+        padding:48px 32px 48px 32px;
+        margin-top:168px;
+        background-color: #151515;
+}
+.footertxt{
+    margin-top: 38px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color:#FFFFFF;
+}
+.icon{
+    display:flex;
+    margin-top:38px;
+}
+.inst,.tw{
+    margin-left:20px;
+}
+path:hover {
+    cursor:pointer;
+    fill:#D5966C;
+}
+.imgherotablet{
+    display: none;
+}
+
+
+
+@media(min-width:768px) {
+.grid1,.grid2,.grid3,.imghero{
+    display: none;
+}
+.tabletgrid1,.tabletgrid2,.tabletgrid3,.imgherotablet{
+    display: block;
+}
+
+.header{
+    width:339px;
+    position: absolute;
+    top:145px;
+    right: 40px;
+    left: 389px;
+    margin-top: 0px;
+    padding-left:0px;
+    padding-right: 0px;
+}
+section{
+    margin-top:120px;
+    padding:0px 40px 0px 40px;
+    display: grid;
+    grid-template-columns: 43% 10% 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 11px;
+}
+.div{
+    margin-top:0px;
+}
+.txt{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 26px 68px 0px 0px;
+}
+.tabletgrid1{
+    grid-column: 2/4;
+}
+.tabletgrid3{
+    grid-column: 3 / 4;
+}
+.tabletgrid2{
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+}
+.footer{
+    display:grid ;
+    grid-template-columns: auto auto auto;
+}
+.footertxt{
+    margin-top: 0px;
+    margin-left:64px;
+    margin-right: 133px;
+}
+.icon{
+    margin-top:0px;
+}
+.hdrtxt{
+    margin-top:0px;
+}
+}
+
+@media(min-width:1440px){
+.tabletgrid1,.tabletgrid2,.tabletgrid3,.imgherotablet{
+    display: none;
+}
+.desktopgrid1,.desktopgrid2,.desktopgrid3,.headerdivs{
+    display: block;
+}
+section{
+    margin-top:120px;
+    padding:0px 40px 0px 40px;
+    display: grid;
+    grid-template-columns: 43% 10% 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 11px;
+}
+.div{
+    margin-top:0px;
+}
+.txt{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 26px 68px 0px 0px;
+}
+.desktopgrid1{
+    grid-column: 2/4;
+}
+.desktopgrid3{
+    grid-column: 3 / 4;
+}
+.desktopgrid2{
+    grid-row: 2 / 4;
+    grid-column: 1 / 3;
+}
+.logodark{
+    display: none;
+}
+.header{
+    width: 23%;
+    position: absolute;
+    top:190px;
+    left: 925px;
+}
+.headertxt{
+margin-top: 0px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+}
+.blackdiv{
+    width: 450px;
+    background-color: #151515;
+}
+.headerdivs{
+    display: flex;
+}
+.text{
+    display: flex;
+    position:absolute;
+    top: 190px;
+    left: 165px;
+}
+.text p{
+    font-family: 'Big Shoulders Display';
+   font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 88px;
+}
+.modern,.art{
+color:white;
+}
+.right{
+    margin-left: -18px;
+}
+.section{
+    padding:0px 165px 0px 165px;
+}
+.div{
+    padding:65px 47px 64px 48px;
+}
+.come{
+    font-size: 60px;
+line-height: 60px;
+}
+.comeundertxt{
+    font-size: 22px;
+line-height: 32px;
+}
+.hdrtxt{
+    font-size: 60px;
+    line-height: 60px;
+}
+.undertxt{
+    font-size: 22px;
+line-height: 32px;
+}
+.footertxt{
+    font-size: 18px;
+line-height: 28px;
+}
+.footer{
+    padding:80px 165px 80px 165px;
+}
+}
